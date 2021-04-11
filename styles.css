@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
+    
 }
 nav{
     display: flex;
@@ -57,7 +58,8 @@ nav{
   }
 @media  screen and (max-width:768px) {
     body{
-        overflow-x: hidden; 
+        overflow-x: hidden;
+        box-sizing: border-box;
     }
 .nav-links{
     position: absolute;
@@ -78,6 +80,7 @@ nav{
   }
   .burger{
       display: inline-block;
+      
       
   }
 }
@@ -517,4 +520,12 @@ div.footer h6 {
 div.footer .footer-textarea{
 
 width: 100%;
+}
+div{
+    box-sizing: border-box;
+}
+/*div.logo{
+    display: flex;
+    justify-content: space-around;
+}
 }
