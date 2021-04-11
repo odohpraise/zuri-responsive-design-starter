@@ -237,7 +237,7 @@ div.background p {
 div.hero-background-pos {
     
     position: absolute;
-    right:50px;
+    right:312.5%;
     left: 75%;
     background: #fff;
     width: 140px;
